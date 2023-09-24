@@ -1,0 +1,15 @@
+# This file tests integrity of libraries in this repository
+# Created by Krisjanis Rijnieks on 2 May 2020
+
+image: python:latest
+
+before_script:
+  - git clone https://gitlab.com/kicad/libraries/kicad-library-utils.git
+  - apt update && apt install -y jq
+  - python -V
+  - jq --version
+
+test:
+  script:
+    - ./tests/inventory.sh ./fab.kicad_sym ./tests/whitelist.txt
+    - ./klc-check.sh

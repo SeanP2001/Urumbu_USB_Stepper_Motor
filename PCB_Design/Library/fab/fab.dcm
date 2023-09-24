@@ -1,0 +1,867 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AMP_MONO_LM4871M
+D 10MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIJ-8
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf
+$ENDCMP
+#
+$CMP Arduino_UNO_R3
+D Arduino UNO Microcontroller Module, release 3
+K Arduino UNO R3 Microcontroller Module Atmel AVR USB
+F https://www.arduino.cc/en/Main/arduinoBoardUno
+$ENDCMP
+#
+$CMP Arduino_UNO_Shield
+D Arduino UNO Microcontroller Module
+K Arduino UNO R3 Microcontroller Module Atmel AVR USB
+F https://www.arduino.cc/en/Main/arduinoBoardUno
+$ENDCMP
+#
+$CMP BUTTON_B3SN
+D Push button switch, Omron B3SN, Sealed Tactile Switch (SMT), SPST-NO Top Actuated Surface Mount
+K switch normally-open pushbutton push-button button tactile spst single pole single throw
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3sn.pdf
+$ENDCMP
+#
+$CMP BUTTON_PTS636
+D Push button switch, C&K PTS636 SM25F SMTR LFS, Tactile Switch SPST-NO Top Actuated Surface Mount
+K switch normally-open pushbutton push-button button tactile spst single pole single throw
+F https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS636/documents/datasheet.pdf
+$ENDCMP
+#
+$CMP Battery_Cell
+D Single-cell battery, Linx BAT-HLD-001, Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab
+K battery cell 2025 2032 retainer holder 20mm
+F https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-001.pdf
+$ENDCMP
+#
+$CMP Bridge_Rectifier_DI_HD01-T
+D Diode bridge
+K rectifier ACDC
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/ds17003.pdf
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP CP_Elec_10x10mm
+D Polarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP CP_Elec_P3.5mm_D8mm
+D Polarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP Charge_Controller_4.2V_MCP73831-2-OT
+D Charger IC Lithium Ion/Polymer SOT-23-5, 4.20V, Open-Drain Status Output, in SOT23-5 package
+K battery charger lithium
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf
+$ENDCMP
+#
+$CMP Conn_Header_JST_PH_1x02_P2mm_Vertical_SMD
+D Male JST PH 2 pin connector
+K male header JST PH
+F https://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
+$CMP Conn_Header_JST_PH_1x03_P2mm_Vertical_SMD
+D Male JST PH 3 pin connector
+K male header JST PH
+F https://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
+$CMP Conn_Header_JST_PH_1x04_P2mm_Vertical_SMD
+D Male JST PH 4 pin connector
+K male header JST PH
+F https://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
+$CMP Conn_PWRJack_0.7x2.35mm_CUIDevices_PJ1-023-SMT-TR
+D Power Barrel Connector Jack 0.70mm ID (0.028"), 2.35mm OD (0.093") EIAJ-1 Surface Mount, Right Angle
+K power barrel connector jack surface mount smt smd right angle
+F https://www.cuidevices.com/product/resource/digikeypdf/pj1-023-smt-tr.pdf
+$ENDCMP
+#
+$CMP Conn_PWRJack_2x5.5mm_CUIDevices_PJ-002AH-SMT-TR
+D Power Barrel Connector Jack 2.00mm ID (0.079"), 5.50mm OD (0.217") Surface Mount
+K power barrel connector jack surface mount smt smd
+F https://www.cuidevices.com/product/resource/pj-002ah-smt-tr.pdf
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x01_P2.54mm_Horizontal_SMD
+D Connector pin header 2.54mm pitch horizontal SMD
+K Connector pin header 2.54mm pitch horizontal SMD
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x01_P2.54mm_Vertical_THT_D1.4mm
+D Connector pin header 2.54mm pitch vertical tht
+K Connector pin header 2.54mm pitch vertical tht
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x01_P2.54mm_Vertical_THT_D1mm
+D Connector pin header 2.54mm pitch vertical tht
+K Connector pin header 2.54mm pitch vertical tht
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x02_P2.54mm_Horizontal_SMD
+D Male UPDI 2 pin connector
+K male UPDI connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x02_P2.54mm_Vertical_THT_D1.4mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x02_P2.54mm_Vertical_THT_D1mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x03_P2.54mm_Horizontal_SMD
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x03_P2.54mm_Vertical_THT_D1.4mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x03_P2.54mm_Vertical_THT_D1mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x04_P2.54mm_Horizontal_SMD
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x04_P2.54mm_Vertical_THT_D1.4mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x04_P2.54mm_Vertical_THT_D1mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x05_P2.54mm_Horizontal_SMD
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x05_P2.54mm_Vertical_THT_D1.4mm
+D Connector Header Through Hole 5 positions 0.100" (2.54mm)
+K connector
+F https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x05_P2.54mm_Vertical_THT_D1mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x06_P2.54mm_Horizontal_SMD
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x06_P2.54mm_Vertical_THT_D1.4mm
+D Connector Header Through Hole 6 positions 0.100" (2.54mm)
+K connector
+F https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x06_P2.54mm_Vertical_THT_D1mm
+D Connector Header Through Hole 6 positions 0.100" (2.54mm)
+K connector
+F https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x07_P2.54mm_Horizontal_SMD
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x07_P2.54mm_Vertical_THT_D1.4mm
+D Connector Header Through Hole 7 positions 0.100" (2.54mm)
+K connector
+F https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x07_P2.54mm_Vertical_THT_D1mm
+D Connector Header Through Hole 7 positions 0.100" (2.54mm)
+K connector
+F https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x08_P2.54mm_Horizontal_SMD
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x08_P2.54mm_Vertical_THT_D1.4mm
+D Connector Header Through Hole 8 positions 0.100" (2.54mm)
+K connector
+F https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x08_P2.54mm_Vertical_THT_D1mm
+D Connector Header Through Hole 8 positions 0.100" (2.54mm)
+K connector
+F https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x09_P2.54mm_Horizontal_SMD
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x09_P2.54mm_Vertical_THT_D1.4mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x09_P2.54mm_Vertical_THT_D1mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x10_P2.54mm_Horizontal_SMD
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x10_P2.54mm_Vertical_THT_D1.4mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x10_P2.54mm_Vertical_THT_D1mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x11_P2.54mm_Horizontal_SMD
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x11_P2.54mm_Vertical_THT_D1.4mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x11_P2.54mm_Vertical_THT_D1mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x12_P2.54mm_Horizontal_SMD
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x12_P2.54mm_Vertical_THT_D1.4mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x12_P2.54mm_Vertical_THT_D1mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x13_P2.54mm_Horizontal_SMD
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x13_P2.54mm_Vertical_THT_D1.4mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x13_P2.54mm_Vertical_THT_D1mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x14_P2.54mm_Horizontal_SMD
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x14_P2.54mm_Vertical_THT_D1.4mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x14_P2.54mm_Vertical_THT_D1mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x15_P2.54mm_Horizontal_SMD
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x15_P2.54mm_Vertical_THT_D1.4mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x15_P2.54mm_Vertical_THT_D1mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x16_P2.54mm_Horizontal_SMD
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x16_P2.54mm_Vertical_THT_D1.4mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_1x16_P2.54mm_Vertical_THT_D1mm
+D Male connector, single row
+K single row male connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_2x02_P1.27mm_Vertical_SMD
+D Connector Header Surface Mount 4 position 0.050" (1.27mm)
+K connector
+F https://s3.amazonaws.com/catalogspreads-pdf/PAGE94-95%20.050%20MALE%20HDR%20ST%20RA%20SMT.pdf
+$ENDCMP
+#
+$CMP Conn_PinHeader_2x02_P2.54mm_Vertical_SMD
+D Connector Header Surface Mount 4 position 0.100" (2.54mm)
+K connector
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/95278.pdf
+$ENDCMP
+#
+$CMP Conn_PinHeader_2x03_P2.54mm_Vertical_SMD
+D Connector Header Surface Mount 6 position 0.100" (2.54mm)
+K connector
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/95278.pdf
+$ENDCMP
+#
+$CMP Conn_PinHeader_2x04_P2.54mm_Vertical_SMD
+D Connector Header Surface Mount 8 position 0.100" (2.54mm)
+K connector
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/95278.pdf
+$ENDCMP
+#
+$CMP Conn_PinHeader_2x05_P1.27mm_Vertical_SMD
+D Connector Header Surface Mount 10 position 0.050" (1.27mm)
+K connector
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf
+$ENDCMP
+#
+$CMP Conn_PinHeader_2x05_P2.54mm_Vertical_SMD
+D Connector Header Surface Mount 10 position 0.100" (2.54mm)
+K connector
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/95278.pdf
+$ENDCMP
+#
+$CMP Conn_PinHeader_FTDI_1x06_P2.54mm_Horizontal_SMD
+D Male FTDI connector
+K male FTDI connector
+F ~
+$ENDCMP
+#
+$CMP Conn_PinHeader_UPDI_1x02_P2.54mm_Horizontal_SMD
+D Male UPDI 2 pin connector
+K male UPDI connector
+F ~
+$ENDCMP
+#
+$CMP Crystal_ECS-CR2-20
+D 20MHz Ceramic Resonator Built in Capacitor 15pF ±0.3%  -20°C ~ 80°C Surface Mount
+K Ceramic Resonator Crystal Oscillator Surface Mount
+F https://ecsxtal.com/store/pdf/ecs_cr2_b.pdf
+$ENDCMP
+#
+$CMP Crystal_NX5032GA-20
+D 20MHz ±50ppm Crystal 8pF 70 Ohms 2-SMD, No Lead
+K crystal resonator oscillator smd-2 8pf
+F https://media.digikey.com/pdf/Data%20Sheets/NDK%20PDFs/NX5032GA.pdf
+$ENDCMP
+#
+$CMP DAC_12bit_I2C_MCP4725_SOT-23-6
+D 12 Bit Digital to Analog Converter I2C interface SOT-23-6
+K dac i2c
+F www.adafruit.com/datasheets/mcp4725.pdf
+$ENDCMP
+#
+$CMP D_Schottky
+D Schottky diode
+K diode schottky
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/c6/32/d4/4a/28/d3/4b/11/CD00004930.pdf/files/CD00004930.pdf/jcr:content/translations/en.CD00004930.pdf
+$ENDCMP
+#
+$CMP D_Schottky_100V_1A
+D Schottky diode
+K diode schottky
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/c6/32/d4/4a/28/d3/4b/11/CD00004930.pdf/files/CD00004930.pdf/jcr:content/translations/en.CD00004930.pdf
+$ENDCMP
+#
+$CMP D_Zener
+D Zener diode
+K diode zener
+$ENDCMP
+#
+$CMP FT230XS
+D USB Bridge, USB to UART USB 2.0 UART Interface 16-SSOP FTDI
+K USB Bridge, USB to UART USB 2.0 UART Interface 16-SSOP FTDI
+F http://www.ftdichip.com/Products/ICs/FT230X.html
+$ENDCMP
+#
+$CMP Inductor_L_1210
+D Inductor
+K inductor choke coil reactor magnetic ferrite bead
+F https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=CBC3225T1R0MR%20%20&u=M
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode, Lite-On Inc. LTST
+K LED diode 1206
+F https://optoelectronics.liteon.com/upload/download/DS-22-98-0002/LTST-C150CKT.pdf
+$ENDCMP
+#
+$CMP LED_IR
+D Infrared (IR) Light emitting diode, 850nm 1.45V 65mA 1mW/sr @ 20mA 75° 1206 (3016 Metric)
+K LED diode infrared IR emitter 850nm
+F http://www.everlight.com/file/ProductFile/201407052100495806.pdf
+$ENDCMP
+#
+$CMP LED_Luminus_1206
+D LED Lighting - White, Cool 5000K 2.85V 60mA 110° 1206 (3014 Metric)
+K LED diode 1206 white cool 5000K
+F https://download.luminus.com/datasheets/Luminus_MP3014_1100_Datasheet.pdf
+$ENDCMP
+#
+$CMP LED_RGB_CLV1A-FKB
+D RGB LED, red/anode/blue/green, Red, Green, Blue (RGB) 622nm Red, 528nm Green, 468nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 4-PLCC
+K LED RGB diode common anode RABG
+F https://www.cree.com/led-components/media/documents/ds-CLV1A-FKB.pdf
+$ENDCMP
+#
+$CMP Logic_ICE40HX1K-TQ144
+D iCE40 HX FPGA, 1280 LUTs, 1.2V, TQFP-144
+K FPGA programmable logic
+F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
+$ENDCMP
+#
+$CMP MOSFET_N-CH_30V_1.7A
+D N-Channel mosfet NDS355AN in SOT-23 package
+K field effect transistor
+F https://www.onsemi.com/pub/Collateral/NDS355AN-D.PDF
+$ENDCMP
+#
+$CMP MOSFET_N-CH_50V_16A
+D N-Channel mosfet RFD16N05LSM9A in TO-252 package
+K field effect transistor
+F https://www.onsemi.com/pub/Collateral/RFD16N05LSM-D.PDF
+$ENDCMP
+#
+$CMP MOSFET_P-CH_30V_1.1A
+D P-Channel mosfet NDS356AP in SOT-23 package
+K field effect transistor
+F https://www.onsemi.com/pub/Collateral/NDS356AP-D.PDF
+$ENDCMP
+#
+$CMP Memory_Adafruit_4677_ESP-PSRAM64
+D PSRAM (Pseudo SRAM) Memory IC 64Mb (8M x 8) SPI 133MHz  8-SOIC
+K 64Mbit SPI SOIC-8 133MHz memory PSRAM
+F https://cdn-shop.adafruit.com/product-files/4677/4677_esp-psram64_esp-psram64h_datasheet_en.pdf
+$ENDCMP
+#
+$CMP Mic_Electret
+D Generic electret microphone
+K mic microphone electret generic
+F ~
+$ENDCMP
+#
+$CMP Mic_MEMS_Analog_SPU0414HR5H
+D Analog Microphone MEMS (Silicon), 1.5V ~ 3.6V, 100Hz ~ 10kHz, Knowles SPU0414HR5H-SB-7
+K analog mems microphone mic silicon omnidirectional omni
+F https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Acoustics%20PDFs/SPU0414HR5H-SB.pdf
+$ENDCMP
+#
+$CMP Mic_MEMS_Digital_SPH0645LM4H
+D Digital Microphone MEMS (Silicon), 1.62V ~ 3.6V, 20Hz ~ 10kHz, Knowles SPH0645LM4H-B
+K digital mems microphone mic silicon omnidirectional omni
+F https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Acoustics%20PDFs/SPH0645LM4H-B.pdf
+$ENDCMP
+#
+$CMP Micro_SD_Socket
+D Zero-Drift, Precision, Low-Noise, Rail-to-Rail Output, 36-V Operational Amplifier, TSOT-23-5
+K single opamp zero-drift
+F http://www.ti.com/lit/ds/symlink/opa188.pdf
+$ENDCMP
+#
+$CMP Microcontroller_ATSAMD11C14A-SSUT
+D IC MCU 32BIT 16KB FLASH 14SOIC
+K arm sam d11c 32-bit 48mhz 16kb soic-14
+F https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42363-SAM-D11_Datasheet.pdf
+$ENDCMP
+#
+$CMP Microcontroller_ATSAMD11D14A-SSUT
+D IC MCU 32BIT 16KB FLASH 20SOIC
+K arm sam d11d 32-bit 48mhz 16kb soic-20
+F https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42363-SAM-D11_Datasheet.pdf
+$ENDCMP
+#
+$CMP Microcontroller_ATSAMD21E17A-AUT
+D SAM D21 Microchip SMART ARM-based Flash MCU, 48Mhz, 32K Flash, 4K SRAM, TQFP-32
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F https://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_DataSheet_DS40001882F.pdf
+$ENDCMP
+#
+$CMP Microcontroller_ATtiny1614-SSFR
+D AVR tinyAVR™ 1 Microcontroller IC 8-Bit 16MHz 16KB (16K x 8) FLASH 14-SOIC
+K avr microcontroller attiny 1614 soic 8bit
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny1614-16-17-DataSheet-DS40002204A.pdf
+$ENDCMP
+#
+$CMP Microcontroller_ATtiny3216-SFR
+D AVR tinyAVR™ 1 Microcontroller IC 8-Bit 20MHz 32KB (32K x 8) FLASH 20-SOIC
+K avr microcontroller 8bit 3216 1-series soic
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny3216_ATtiny1616-data-sheet-40001997B.pdf
+$ENDCMP
+#
+$CMP Microcontroller_ATtiny412_SSFR
+D AVR tinyAVR™ 1 Microcontroller IC 8-Bit 20MHz 4KB (4K x 8) FLASH 8-SOIC
+K avr tinyavr 1-series soic 8bit
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001911A.pdf
+$ENDCMP
+#
+$CMP Microcontroller_ATtiny44A-SSU
+D AVR AVR® ATtiny Microcontroller IC 8-Bit 20MHz 4KB (2K x 16) FLASH 14-SOIC
+K AVR 8bit Microcontroller tinyAVR SOIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf
+$ENDCMP
+#
+$CMP Microcontroller_ATtiny45V-10SU
+D AVR ATtiny Microcontroller IC 8-Bit 10MHz 4KB (2K x 16) FLASH 8-SOIC
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf
+$ENDCMP
+#
+$CMP Microcontroller_AVR128DB32-I_PT
+D IC MCU 8BIT 128KB FLASH TQFP-32
+K AVR 8bit Microcontroller DB TQFP-32
+F http://ww1.microchip.com/downloads/en/DeviceDoc/AVR128DB28-32-48-64-DataSheet-DS40002247A.pdf
+$ENDCMP
+#
+$CMP MotorDriver_BipolarStepper_A4982
+D Bipolar Motor Driver DMOS Logic 24-TSSOP-EP Allegro MicroSystems A4982SLPTR-T
+K bipolar stepper motor driver allegro microsystems
+F https://www.allegromicro.com/~/media/Files/Datasheets/A4982-Datasheet.ashx
+$ENDCMP
+#
+$CMP MotorDriver_BrushedDC_DRV8838DSGR
+D Low-Voltage H-Bridge Motor Driver 8-WSON (2x2) in Package
+K Motor Driver NMOS On/Off 8-WSON (2x2)
+F http://www.ti.com/lit/ds/symlink/drv8838.pdf
+$ENDCMP
+#
+$CMP MotorDriver_FullBridge_A4953
+D Motor Driver, 40V, 2A, Full-Bridge, DMOS PWM, SOIC-8, Exposed Pad
+K full bridge  motor driver allegro
+F https://www.allegromicro.com/~/media/Files/Datasheets/A4952-3-Datasheet.ashx
+$ENDCMP
+#
+$CMP MotorDriver_StepStick_Generic
+D Generic StepStick based on the TMC SilentStepStick layout
+K stepstick motor driver connector
+F https://www.trinamic.com/fileadmin/assets/Products/Eval_Drawings/SilentStepStick-TMC2100_v13.pdf
+$ENDCMP
+#
+$CMP MotorDriver_TI_DRV8428EPWPR
+D Bipolar Motor Driver Power MOSFET PWM 16-HTSSOP
+K Bipolar Motor Driver Power MOSFET PWM 16-HTSSOP
+F https://www.ti.com/lit/ds/symlink/drv8428e.pdf
+$ENDCMP
+#
+$CMP MotorDriver_ThreePhase_A5940
+D Three Phase Sensorless Sinusoidal Fan Driver, Allegro A5940GLKTR-T
+K three phase sensorless sinusoidal  fan motor driver
+F https://www.allegromicro.com/-/media/Files/Datasheets/A5940-Datasheet.ashx
+$ENDCMP
+#
+$CMP MotorDriver_ThreePhase_AMT49400
+D WINDOWLESS SINUSOIDAL BLDC FAN D
+K Motor Driver Power MOSFET I²C 10-SOIC-EP
+F https://www.allegromicro.com/-/media/Files/Datasheets/AMT49400-Datasheet.ashx
+$ENDCMP
+#
+$CMP OPAMP_AD8605
+D General Purpose Amplifier 1 Circuit Rail-to-Rail SOT-23-5
+K single opamp SOT-23-5
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8605_8606_8608.pdf
+$ENDCMP
+#
+$CMP OPAMP_AD8615
+D General Purpose Amplifier 1 Circuit Rail-to-Rail TSOT-23-5
+K single opamp TSOT-23-5
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf
+$ENDCMP
+#
+$CMP Optical_Sensor_200cm_I2C_VL53L0X
+D Optical Sensor 200cm I²C Output
+K lidar laser rangefinder optical sensor
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/b2/1e/33/77/c6/92/47/6b/DM00279086/files/DM00279086.pdf/jcr:content/translations/en.DM00279086.pdf
+$ENDCMP
+#
+$CMP Phototransistor_Infrared_PT15-21B-TR8
+D PT15-21B/TR8 is a phototransistor in miniature SMD package which is molded in a black plastic with flat top view lens. The device is spectrally matched to infrared emitting diode.
+K phototransistor NPN
+F https://www.everlight.com/file/ProductFile/PT15-21B-TR8.pdf
+$ENDCMP
+#
+$CMP Phototransistor_Visible_PT15-21C-TR8
+D PT15-21C/TR8 is a phototransistor in miniature SMD package which is molded in a water clear with flat top view lens. The device is Spectrally matched to visible AND infrared emitting diode.
+K phototransistor NPN
+F https://www.everlight.com/file/ProductFile/PT15-21C-TR8.pdf
+$ENDCMP
+#
+$CMP Power_+12V
+D Power symbol creates a global label with name "+12V"
+K power-flag
+$ENDCMP
+#
+$CMP Power_+24V
+D Power symbol creates a global label with name "+24V"
+K power-flag
+$ENDCMP
+#
+$CMP Power_+36V
+D Power symbol creates a global label with name "+36V"
+K power-flag
+$ENDCMP
+#
+$CMP Power_+3V3
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP Power_+48V
+D Power symbol creates a global label with name "+48V"
+K power-flag
+$ENDCMP
+#
+$CMP Power_+5V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP Power_+9V
+D Power symbol creates a global label with name "+9V"
+K power-flag
+$ENDCMP
+#
+$CMP Power_GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP Power_PWR_FLAG
+D Special symbol for telling ERC where power comes from
+K power-flag
+F ~
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_2010
+D Motor driver sense resistor generic
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_POT_10K_Trimmer
+D Trimmer Potentiometer 10K TT Electronics 23BR10KLFTR
+K resistor variable trimmer
+F https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Trimmers/Datasheets/23.pdf
+$ENDCMP
+#
+$CMP Radio_ESP-WROOM-02D
+D Wi-Fi Module, ESP8266EX SoC, 32-bit, 802.11b/g/n, WPA/WPA2, 2.7-3.6V, SMD
+K RF Radio ESP Espressif
+F https://www.espressif.com/sites/default/files/documentation/esp-wroom-02u_esp-wroom-02d_datasheet_en.pdf
+$ENDCMP
+#
+$CMP Radio_ESP32-WROOM-32E
+D Bluetooth, WiFi 802.11b/g/n, Bluetooth v4.2 +EDR, Class 1, 2 and 3 Transceiver Module 2.4GHz ~ 2.5GHz Integrated, Trace Surface Mount
+K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
+$ENDCMP
+#
+$CMP Radio_ESP8266EX
+D IC RF TxRx + MCU WiFi 802.11b/g/n 2.4GHz 32-VFQFN Exposed Pad
+K IC RF TxRx + MCU WiFi 802.11b/g/n 2.4GHz 32-VFQFN Exposed Pad
+F https://espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf
+$ENDCMP
+#
+$CMP Radio_Microchip_RN4871
+D Bluetooth Bluetooth v5.0 Transceiver Module 2.4GHz Integrated, Chip Surface Mount
+K Bluetooth Low Energy 4.2 Module
+F http://ww1.microchip.com/downloads/en/DeviceDoc/50002489A.pdf
+$ENDCMP
+#
+$CMP Regulator_Linear_LM3480-3.3V-100mA
+D 100mA, Quasi Low Dropout Voltage Regulator, 3.3V positive fixed output, SOT-23 package
+K ldo linear fixed positive
+F https://www.ti.com/lit/ds/symlink/lm3480.pdf
+$ENDCMP
+#
+$CMP Regulator_Linear_LM3480-5.0V-100mA
+D 100mA, Quasi Low Dropout Voltage Regulator, 5.0V positive fixed output, SOT-23 package
+K ldo linear fixed positive
+F https://www.ti.com/lit/ds/symlink/lm3480.pdf
+$ENDCMP
+#
+$CMP Regulator_Linear_MIC5205-3.3V-150mA
+D 150mA Linear Voltage Regulator IC 3.3V 1 Output SOT-23-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
+$ENDCMP
+#
+$CMP Regulator_Linear_NCP1117-5.0V-1A
+D 1A 5.0V Linear Voltage Regulator IC 1 Output SOT-223
+K linear regulator ldo fixed positive
+F https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP Regulator_Linear_ZLDO1117-3.3V-1A
+D 1A 3.3V Low Dropout regulator, positive, fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP SWITCH_AYZ0102AGRLC
+D Switch, single pole double throw, Slide Switch SPDT Surface Mount, Right Angle
+K switch single-pole double-throw spdt ON-ON
+F https://www.ckswitches.com/media/1431/ayz.pdf
+$ENDCMP
+#
+$CMP SWITCH_JS102011JCQN
+D Slide Switch SPDT Surface Mount
+K switch single-pole double-throw spdt ON-ON
+F https://www.ckswitches.com/media/1422/js.pdf
+$ENDCMP
+#
+$CMP Screw_Terminal_01x02_P3.5mm
+D TERM BLK 2POS SIDE ENT 3.5MM PCB
+K screw terminal
+F www.on-shore.com/wp-content/uploads/ED555XDS.pdf
+$ENDCMP
+#
+$CMP Screw_Terminal_01x02_P5mm
+D TERM BLK 2POS SIDE ENTRY 5MM PCB
+K screw terminal
+F https://www.on-shore.com/wp-content/uploads/OSTTAXX0161.pdf
+$ENDCMP
+#
+$CMP Screw_Terminal_01x03_P3.5mm
+D TERM BLK 3POS SIDE ENT 3.5MM PCB
+K screw terminal
+F www.on-shore.com/wp-content/uploads/ED555XDS.pdf
+$ENDCMP
+#
+$CMP Sensor_Accelerometer_ADXL343
+D 3-Axis MEMS Accelerometer, 2/4/8/16g range, I2C/SPI, LGA-14
+K 3-axis accelerometer i2c spi mems
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf
+$ENDCMP
+#
+$CMP Sensor_Hall-Effect_Analog_A1324LLHLT-T
+D Hall-Effect Sensor Single Axis SOT-23W
+K hall switch analog effect sensor
+F https://www.allegromicro.com/~/media/Files/Datasheets/A1324-5-6-Datasheet.ashx
+$ENDCMP
+#
+$CMP Sensor_Pressure_DPS310
+D Pressure Sensor 4.35PSI ~ 17.4PSI (30kPa ~ 120kPa) Vented Gauge  24 b 8-VFLGA
+K capacitive pressure sensor vented gauge lga
+F https://www.infineon.com/dgdl/Infineon-DPS310-DS-v01_00-EN.pdf?fileId=5546d462576f34750157750826c42242
+$ENDCMP
+#
+$CMP Speaker
+D Generic Speaker
+K speaker sound loudspeaker buzzer
+F ~
+$ENDCMP
+#
+$CMP Thermistor_NTC
+D Temperature dependent resistor, Amphenol NHQ103B375T10, negative temperature coefficient, NTC Thermistor 10k 1206 (3216 Metric)
+K thermistor NTC resistor sensor
+F https://www.mouser.fi/datasheet/2/18/AAS-920-324F-Thermometrics-NTC-SMD-032717-web-1018802.pdf
+$ENDCMP
+#
+$CMP Thermistor_RTD
+D Temperature dependent resistor, Vishay PTS1206M1B1K00P100, 1 kOhms RTD Platinum ±0.3K ±3850ppm/°C -55°C ~ 175°C 1206 (3216 Metric)
+K thermistor resistor sensor RTD
+F http://www.vishay.com/docs/28899/ptsat.pdf
+$ENDCMP
+#
+#End Doc Library
