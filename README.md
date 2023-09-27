@@ -149,7 +149,7 @@ The motor was able to lift a mass of 100g at a distance of 6.8cm from the motor 
 
 ## Using the Module
 
-I then went on to demonstrate the use of these modules and test that they functioned as expected. To do this I designed, manufactured and programmed a crane motion system.
+I then went on to demonstrate the use of these modules and test that they functioned as expected. To do this I designed, manufactured and programmed a crane motion system. [Here](https://github.com/SeanP2001/Urumbu_Crane) is the repository for that project.
 
 <p align="center">
   <img src="./Images/Crane_Demonstration.jpg">
